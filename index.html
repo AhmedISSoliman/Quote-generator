@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quote Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="card m-5 w-75 mx-auto border-0" style="box-shadow: 0px 0px 5px 2px lightgray;">
+            <div class="card-header text-center bg-dark text-white">
+                <h1>
+                    Quote of the Day
+                </h1>
+            </div>
+            <div class="card-body text-center">
+                <p>Press the button below to recieve a random quote!</p>
+                <div class="my-3">
+                    <button id="quoteGenertor" class="btn btn-outline-dark">
+                        New Quote
+                    </button>
+                </div>
+            </div>
+            <div class="card-footer text-center d-none">
+                <h2 id="quote" class="w-75 mx-auto"></h2>
+                <h3 id="quoteOwner"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
